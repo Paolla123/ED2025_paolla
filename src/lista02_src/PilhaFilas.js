@@ -46,7 +46,7 @@ class PilhaFilas {
     }
 
     dequeue1() {
-        if (this.isEmpty()) throw new Error("Queue underflow para Fila1");
+        if (this.isEmpty()) throw new Error("Queue 1 underflow");
 
         if (this.inicio1 === this.tam) {
             this.inicio1 = 0;
@@ -56,7 +56,7 @@ class PilhaFilas {
     }
 
     dequeue2() {
-        if (this.isEmpty()) throw new Error("Queue underflow para Fila2");
+        if (this.isEmpty()) throw new Error("Queue 2 underflow");
 
         if (this.inicio2 === this.tam) {
             this.inicio2 = 0;
